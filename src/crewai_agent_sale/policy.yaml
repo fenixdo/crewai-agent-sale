@@ -1,7 +1,7 @@
 # Chính sách bán hàng — sửa file này rồi push là AMP tự redeploy (demo "maintain").
-version: v1
+version: v2
 price_per_deal: 36000000        # giá trị trung bình một hợp đồng năm (đồng)
-promo_discount_pct: 10          # khuyến mãi chiến dịch
-conversion_rate_pct: 4          # lead → hợp đồng
-deals_per_rep_per_quarter: 9    # năng suất một nhân viên bán hàng / quý
+promo_discount_pct: 15          # v2: khuyến mãi sâu hơn để tăng chuyển đổi
+conversion_rate_pct: 5          # v2: lead → hợp đồng tăng nhờ khuyến mãi
+deals_per_rep_per_quarter: 8    # v2: hợp đồng lớn hơn, mỗi người chốt ít hơn
 commission_pct: 5               # hoa hồng trên doanh số sau khuyến mãi
