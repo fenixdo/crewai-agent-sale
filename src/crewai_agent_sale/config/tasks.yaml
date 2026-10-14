@@ -1,0 +1,11 @@
+forecast_task:
+  description: >
+    Marketing đề xuất chiến dịch sau. Dự báo doanh số và nhân lực bán hàng bằng tool sales_forecast.
+
+    ```json
+    {proposal}
+    ```
+  expected_output: >
+    JSON: policy_version, target_leads, deals, revenue, commission, sales_headcount_needed,
+    sales_headcount_planned, quota_per_rep, capped_by_hr, risks, note.
+  agent: sales_lead
